@@ -18,14 +18,30 @@ module.exports = {
 
             black: colors.black,
             white: colors.white,
-            gray: colors.coolGray,
+            "blue-gray": colors.blueGray,
+            "cool-gray": colors.coolGray,
+            gray: colors.gray,
+            "true-gray": colors.trueGray,
+            "warm-gray": colors.warmGray,
             red: colors.red,
-            yellow: colors.amber,
-            green: colors.emerald,
+            orange: colors.orange,
+            amber: colors.amber,
+            yellow: colors.yellow,
+            lime: colors.lime,
+            green: colors.green,
+            emerald: colors.emerald,
+            teal: colors.teal,
+            cyan: colors.cyan,
+            "light-blue": colors.lightBlue,
             blue: colors.blue,
             indigo: colors.indigo,
-            purple: colors.violet,
+            violet: colors.violet,
+            purple: colors.purple,
+            fuchsia: colors.fuchsia,
             pink: colors.pink,
+            rose: colors.rose,
+
+            "marine-dark": "#101820",
         },
         spacing: {
             px: "1px",
@@ -164,6 +180,7 @@ module.exports = {
         },
         fontFamily: {
             sans: [
+                "Signika",
                 "ui-sans-serif",
                 "system-ui",
                 "-apple-system",
@@ -178,12 +195,22 @@ module.exports = {
                 "'Segoe UI Symbol'",
                 "'Noto Color Emoji'",
             ],
-            serif: ["ui-serif", "serif"],
+            "sans-alt": [
+                "Asap",
+            ],
+            serif: [
+                "Lora",
+                "ui-serif",
+                "serif",
+            ],
             mono: [
                 "ui-monospace",
                 "SFMono-Regular",
                 "Consolas",
                 "monospace",
+            ],
+            handwriting: [
+                "Caveat",
             ],
         },
         fontSize: {

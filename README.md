@@ -1,4 +1,4 @@
-# marine-si
+# cow-network
 
 ## Project setup
 ```
