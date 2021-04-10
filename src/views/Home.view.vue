@@ -92,7 +92,7 @@
                         <svg-icon :path="icons.github" :size="32" type="mdi" />
                     </div>
 
-                    <div class="font-sans-alt font-semibold italic mb-8 mt-4 text-2xl">100% Transparent und Open-Source</div>
+                    <div class="font-sans-alt font-semibold italic mb-8 mt-4 text-2xl">100% Transparenz und Open-Source</div>
                     <div class="font-light text-lg">Unsere gesamte Software ist für die Open-Source-Community unter der GPL Lizenz (oder eines ihrer Derivate) auf GitHub verfügbar.</div>
                 </div>
 
@@ -180,7 +180,10 @@
         <section class="leading-relaxed max-w-7xl mx-auto p-4 space-y-16 text-blue-gray-800
             xl:px-0 xl:py-16">
 
-            <div class="font-semibold max-w-lg pr-16 text-3xl">Antworten auf Fragen, von denen wir glauben, dass sie häufig gestellt werden könnten</div>
+            <div>
+                <div class="font-handwriting mb-2 text-xl">FA-KUH, hihi</div>
+                <div class="font-semibold max-w-lg pr-16 text-3xl">Antworten auf Fragen, von denen wir glauben, dass sie häufig gestellt werden könnten</div>
+            </div>
 
             <div class="gap-16 grid grid-cols-3">
                 <div>
@@ -222,9 +225,28 @@
                     <div class="font-sans-alt font-semibold italic mb-4 text-xl">Ich will aber lieber PvP spielen!!1!1</div>
                     <div class="font-light text-lg">&mdash; PvP können andere Netzwerke besser, keiner zwingt dich hier zu bleiben.</div>
                 </div>
+
+                <div>
+                    <div class="font-sans-alt font-semibold italic mb-4 text-xl">Warum liegt hier Stroh?</div>
+                    <div class="font-light text-lg">&mdash; Hoffentlich hast du ne Maske auf!</div>
+                </div>
             </div>
         </section>
 
+        <footer class="bg-rose-200 text-rose-500">
+            <section class="max-w-7xl mx-auto">
+                <!-- <div class="divide-x-2 divide-rose-300 -mx-4 py-8">
+                    <a class="px-4">Website</a>
+                    <a class="px-4">Github</a>
+                </div> -->
+
+                <div class="flex font-sans-alt font-medium italic items-center py-4 text-rose-500 text-sm">
+                    <img class="h-8 mr-3" src="https://cow.network/CowDab-250.png" />
+                    <div>Made with <span class="not-italic">❤️</span> by the cows</div>
+                    <div class="ml-auto">&copy; 2021 Cow Network</div>
+                </div>
+            </section>
+        </footer>
     </div>
 
 </template>
