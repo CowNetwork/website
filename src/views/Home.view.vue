@@ -336,7 +336,7 @@
                         lg:text-xl">Kann ich mich als Supporter/Moderator bewerben?</div>
 
                     <div class="font-light
-                        lg:text-lg">&mdash; Wir versuchen kein riesiges Team aufzubauen. Für Supporter/Moderatoren haben wir kein Bedarf.</div>
+                        lg:text-lg">&mdash; Wir versuchen kein riesiges Team aufzubauen. Für Supporter/Moderatoren haben wir keinen Bedarf.</div>
                 </div>
 
                 <div>
