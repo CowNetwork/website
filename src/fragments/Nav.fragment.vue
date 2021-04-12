@@ -15,7 +15,7 @@
 
             <div class="flex items-center space-x-8">
                 <a class="flex" href="">
-                    <img class="h-8" src="https://cow.network/CowDab-250.png" />
+                    <img class="h-8" src="@/assets/logo.png" />
                 </a>
             </div>
         </div>
