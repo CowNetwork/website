@@ -33,7 +33,7 @@
 <template>
 
     <div id="home-view">
-        <div class="bg-gradient-to-br from-light-blue-600 to-cyan-300 min-h-96 text-white">
+        <div class="from-light-blue-600 to-cyan-300 cn-bg-pond bg-center bg-cover min-h-96 text-white">
             <section class="flex h-full items-end max-w-7xl mx-auto p-4 pt-64
                 xl:items-center xl:px-0 xl:py-60">
 
@@ -69,7 +69,10 @@
                         lg:text-lg">Wir sind ein professioneller Trashserver&trade;, der es sich zur Aufgabe gemacht hat, die üblichen Erwartungen an einen Minecraft-Server einfach komplett zu ignorieren.</div>
                 </div>
 
-                <div class="bg-gradient-to-br from-yellow-400 to-amber-500 col-span-2 h-80 rounded-lg shadow-lg
+                <!-- <div class="bg-gradient-to-br from-yellow-400 to-amber-500 col-span-2 h-80 rounded-lg shadow-lg
+                    lg:col-span-1"></div> -->
+
+                <div class="cn-bg-windmill bg-center bg-cover from-yellow-400 to-amber-500 col-span-2 h-80 rounded-lg shadow-lg
                     lg:col-span-1"></div>
             </div>
 
@@ -77,7 +80,10 @@
                 sm:grid-cols-3
                 lg:gap-16 lg:grid-cols-2">
 
-                <div class="bg-gradient-to-br from-lime-400 to-emerald-500 col-span-2 h-80 rounded-lg shadow-lg
+                <!-- <div class="bg-gradient-to-br from-lime-400 to-emerald-500 col-span-2 h-80 rounded-lg shadow-lg
+                    lg:col-span-1"></div> -->
+
+                <div class="cn-bg-well bg-center bg-cover col-span-2 h-80 rounded-lg shadow-lg
                     lg:col-span-1"></div>
 
                 <div class="self-center
@@ -113,7 +119,10 @@
                         lg:text-lg">Erwarte am besten gar nichts. Jeder hat seine eigenen Ideen und es wird definitiv einigen geilen Scheiß geben, aber wir machen nur das, wozu wir Lust haben.</div>
                 </div>
 
-                <div class="bg-gradient-to-br from-red-400 to-rose-500 col-span-2 h-80 rounded-lg shadow-lg
+                <!-- <div class="bg-gradient-to-br from-red-400 to-rose-500 col-span-2 h-80 rounded-lg shadow-lg
+                    lg:col-span-1"></div> -->
+
+                <div class="cn-bg-barn bg-center bg-cover from-red-400 to-rose-500 col-span-2 h-80 rounded-lg shadow-lg
                     lg:col-span-1"></div>
             </div>
 
@@ -375,10 +384,11 @@
 
         <footer class="bg-rose-200 text-warm-gray-800">
             <section class="max-w-7xl mx-auto px-4">
-                <!-- <div class="divide-x-2 divide-rose-300 -mx-4 py-8">
-                    <a class="px-4">Website</a>
-                    <a class="px-4">Github</a>
-                </div> -->
+                <div class="divide-x-2 divide-rose-300 -mx-4 py-8">
+                    <router-link class="px-4" :to="{ name: 'home' }">Startseite</router-link>
+                    <a class="px-4" href="https://github.com/CowNetwork">Github</a>
+                    <router-link class="px-4" :to="{ name: 'imprint' }">Impressum</router-link>
+                </div>
 
                 <div class="flex font-sans-alt font-medium italic items-center py-4 text-sm">
                     <img class="h-8 mr-3" src="@/assets/logo.png" />
@@ -390,3 +400,24 @@
     </div>
 
 </template>
+
+<style lang="scss" scoped>
+
+    .cn-bg-barn {
+        background-image: url('../assets/barn.jpg');
+    }
+
+    .cn-bg-pond {
+        background-blend-mode: soft-light;
+        background-image: linear-gradient(to bottom right, var(--tw-gradient-stops)), url('../assets/pond.jpg');
+    }
+
+    .cn-bg-well {
+        background-image: url('../assets/well.jpg');
+    }
+
+    .cn-bg-windmill {
+        background-image: url('../assets/windmill.jpg');
+    }
+
+</style>
