@@ -382,10 +382,10 @@
 
                 <div class="sm:col-span-2 lg:col-span-3">
                     <div class="font-sans-alt font-semibold italic mb-4
-                        lg:text-xl">Ich bin desillusioniert und habe das logische Verständnis einer Möwe, ist das hier jetzt ein professionelles Netzwerk?</div>
+                        lg:text-xl">Nochmal zum Mitschreiben: Ist das hier jetzt ein professionelles Netzwerk?</div>
 
                     <div class="font-light
-                        lg:text-lg">&mdash; Dieser Server ist ein Hobbyprojekt, um uns als Entwicklern die Möglichkeiten und Freiheiten zu geben, unsere eigenen Ideen umsetzen zu können, ohne dabei Rücksicht auf die Interessen einer Community oder Geschäftsführung nehmen zu müssen. Uns stören die etablierten Grundsätze ein Minecraft-Netzwerk müsse dieses oder jenes tun oder sein. Cow Network muss nur Spaß machen, dafür braucht es keine 5 Twitter-Accounts, keine drölf Teammitglieder und Klugscheißer, die meinen alles besser zu wissen, erst recht nicht.</div>
+                        lg:text-lg">&mdash; Dieser Server ist ein Hobbyprojekt, um uns als Entwicklern die Möglichkeiten und Freiheiten zu geben, unsere eigenen Ideen umsetzen zu können, ohne dabei Rücksicht auf die Interessen einer Community oder Geschäftsführung nehmen zu müssen. Uns stören die etablierten Grundsätze ein Minecraft-Netzwerk müsse dieses oder jenes tun oder sein. Cow Network muss nur Spaß machen.</div>
                 </div>
             </div>
         </section>
