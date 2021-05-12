@@ -208,15 +208,15 @@
                     <div class="hidden relative
                         xl:block xl:mt-8">
 
-                        <img src="https://visage.surgeplay.com/full/256/42fa7a75-7afa-4a19-932a-1c385c07048a" />
-                        <div class="absolute font-handwriting text-3xl" style="top: -48px">Daniel</div>
+                        <img src="https://visage.surgeplay.com/full/256/e41997a8-5d3e-44bf-b50d-f2df723c7c96" />
+                        <div class="absolute font-handwriting text-3xl" style="top: -48px">Luisa</div>
                         <div class="absolute font-handwriting text-4xl" style="left: 80px; top: -40px; transform: rotate(-48deg)">)</div>
                         <div class="absolute font-handwriting text-4xl" style="left: 90px; top: -32px; transform: rotate(180deg)">^</div>
                     </div>
 
                     <div class="flex flex-col items-center xl:hidden">
-                        <img class="h-40 object-none object-top w-full" src="https://visage.surgeplay.com/full/256/42fa7a75-7afa-4a19-932a-1c385c07048a" />
-                        <div class="bg-black bg-opacity-20 font-handwriting py-1 px-8 rounded text-2xl">Daniel</div>
+                        <img class="h-40 object-none object-top w-full" src="https://visage.surgeplay.com/full/256/e41997a8-5d3e-44bf-b50d-f2df723c7c96" />
+                        <div class="bg-black bg-opacity-20 font-handwriting py-1 px-8 rounded text-2xl">Luisa</div>
                     </div>
 
                     <div class="hidden relative
